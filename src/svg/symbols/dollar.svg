@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-100,0)">
+        <g id="dollar" transform="matrix(50,0,0,50,-5100,-3900)">
+            <path d="M110,80L110,78L108,78L108,80L106,80L106,81L105,81L105,82L104,82L104,86L105,86L105,87L107,87L107,88L108,88L108,92L107,92L107,91L106,91L106,90L104,90L104,92L105,92L105,93L106,93L106,94L108,94L108,96L110,96L110,94L112,94L112,93L113,93L113,92L114,92L114,88L113,88L113,87L111,87L111,86L110,86L110,82L111,82L111,83L112,83L112,84L114,84L114,82L113,82L113,81L112,81L112,80L110,80ZM110,92L111,92L111,91L112,91L112,89L111,89L111,88L110,88L110,92ZM108,86L108,82L107,82L107,83L106,83L106,85L107,85L107,86L108,86Z"/>
+        </g>
+    </g>
+</svg>

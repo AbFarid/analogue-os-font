@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciicircum" format="2">
+  <advance width="350"/>
+  <unicode hex="005E"/>
+  <outline>
+    <contour>
+      <point x="250" y="650" type="line"/>
+      <point x="250" y="700" type="line"/>
+      <point x="50" y="700" type="line"/>
+      <point x="50" y="650" type="line"/>
+      <point x="0" y="650" type="line"/>
+      <point x="0" y="600" type="line"/>
+      <point x="100" y="600" type="line"/>
+      <point x="100" y="650" type="line"/>
+      <point x="200" y="650" type="line"/>
+      <point x="200" y="600" type="line"/>
+      <point x="300" y="600" type="line"/>
+      <point x="300" y="650" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=l</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=l</string>
+  </dict>
+  </lib>
+</glyph>

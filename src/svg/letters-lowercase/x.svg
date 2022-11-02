@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-100,-300)">
+        <g id="x" transform="matrix(50,0,0,50,-10400,-1300)">
+            <path d="M216,35L216,34L217,34L217,33L218,33L218,32L220,32L220,34L219,34L219,35L218,35L218,36L217,36L217,37L216,37L216,38L218,38L218,39L219,39L219,40L220,40L220,42L218,42L218,41L217,41L217,40L216,40L216,39L214,39L214,40L213,40L213,41L212,41L212,42L210,42L210,40L211,40L211,39L212,39L212,38L213,38L213,37L214,37L214,36L212,36L212,35L211,35L211,34L210,34L210,32L212,32L212,33L213,33L213,34L214,34L214,35L216,35Z"/>
+        </g>
+    </g>
+</svg>

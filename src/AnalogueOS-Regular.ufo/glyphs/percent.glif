@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="percent" format="2">
+  <advance width="750"/>
+  <unicode hex="0025"/>
+  <outline>
+    <contour>
+      <point x="600" y="50" type="line"/>
+      <point x="500" y="50" type="line"/>
+      <point x="500" y="300" type="line"/>
+      <point x="600" y="300" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="400" type="line"/>
+      <point x="100" y="400" type="line"/>
+      <point x="100" y="650" type="line"/>
+      <point x="200" y="650" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="650" type="line"/>
+      <point x="250" y="650" type="line"/>
+      <point x="250" y="700" type="line"/>
+      <point x="50" y="700" type="line"/>
+      <point x="50" y="650" type="line"/>
+      <point x="0" y="650" type="line"/>
+      <point x="0" y="400" type="line"/>
+      <point x="50" y="400" type="line"/>
+      <point x="50" y="350" type="line"/>
+      <point x="250" y="350" type="line"/>
+      <point x="250" y="400" type="line"/>
+      <point x="300" y="400" type="line"/>
+      <point x="300" y="300" type="line"/>
+      <point x="250" y="300" type="line"/>
+      <point x="250" y="200" type="line"/>
+      <point x="200" y="200" type="line"/>
+      <point x="200" y="100" type="line"/>
+      <point x="150" y="100" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="250" y="0" type="line"/>
+      <point x="250" y="100" type="line"/>
+      <point x="300" y="100" type="line"/>
+      <point x="300" y="200" type="line"/>
+      <point x="350" y="200" type="line"/>
+      <point x="350" y="300" type="line"/>
+      <point x="400" y="300" type="line"/>
+      <point x="400" y="50" type="line"/>
+      <point x="450" y="50" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="650" y="0" type="line"/>
+      <point x="650" y="50" type="line"/>
+      <point x="700" y="50" type="line"/>
+      <point x="700" y="300" type="line"/>
+      <point x="650" y="300" type="line"/>
+      <point x="650" y="350" type="line"/>
+      <point x="450" y="350" type="line"/>
+      <point x="450" y="300" type="line"/>
+      <point x="400" y="300" type="line"/>
+      <point x="400" y="400" type="line"/>
+      <point x="450" y="400" type="line"/>
+      <point x="450" y="500" type="line"/>
+      <point x="500" y="500" type="line"/>
+      <point x="500" y="600" type="line"/>
+      <point x="550" y="600" type="line"/>
+      <point x="550" y="700" type="line"/>
+      <point x="450" y="700" type="line"/>
+      <point x="450" y="600" type="line"/>
+      <point x="400" y="600" type="line"/>
+      <point x="400" y="500" type="line"/>
+      <point x="350" y="500" type="line"/>
+      <point x="350" y="400" type="line"/>
+      <point x="300" y="400" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=l</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=l</string>
+  </dict>
+  </lib>
+</glyph>

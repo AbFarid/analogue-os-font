@@ -1,0 +1,118 @@
+.display {
+  width: calc(160px * var(--scale));
+  height: calc(144px * var(--scale));
+  margin: auto;
+  background-color: black;
+  color: white;
+  user-select: none;
+}
+
+.display .border {
+  position: relative;
+  display: flex;
+  border: var(--screen-margin) solid black;
+  width: calc(100% - var(--screen-margin) * 2);
+  height: calc(100% - var(--screen-margin) * 2);
+}
+
+.display ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 75%;
+  font-size: calc(2 * var(--font-size));
+  line-height: calc(10px * var(--scale));
+  margin-left: calc(25% - (4px * var(--scale)));
+}
+
+.display ul li {
+  letter-spacing: calc(.4px * var(--scale));
+  margin: var(--3eq) 0;
+  padding-top: var(--2eq);
+  padding-left: var(--4eq);
+}
+
+.display ul li.disabled {
+  opacity: 0.5;
+}
+
+.display ul li:not(.disabled).active {
+  background-color: white;
+  color: black;
+
+  --border-width: var(--5eq);
+  --border-outset: calc(var(--5eq) - 1px);
+  border-image-slice: 0 50% 0 50%;
+  border-image-width: 0px var(--border-width) 0px var(--border-width);
+  border-image-outset: 0px var(--border-outset) 0px var(--border-outset);
+  border-image-repeat: round round;
+  border-image-source: url('../assets/pill-border.svg');
+  border-style: solid;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.tag {
+  font-size: var(--font-size);
+  line-height: var(--font-size);
+  vertical-align: top;
+  position: relative;
+  color: black;
+  background-color: white;
+  padding: var(--1eq) calc(.5px * var(--scale)) 0 var(--1eq);
+
+  --corner: calc(.5px * var(--scale));
+  clip-path: polygon(
+    0px var(--corner),
+    var(--corner) var(--corner),
+    var(--corner) 0px,
+    calc(100% - var(--corner)) 0px,
+    calc(100% - var(--corner)) var(--corner),
+    100% var(--corner),
+    100% calc(100% - var(--corner)),
+    calc(100% - var(--corner)) calc(100% - var(--corner)),
+    calc(100% - var(--corner)) 100%,
+    var(--corner) 100%,
+    var(--corner) calc(100% - var(--corner)),
+    0px calc(100% - var(--corner))
+  );
+}
+
+.display ul li:not(.disabled).active .tag {
+  color: white;
+  background-color: black;
+}
+
+.statusbar {
+  position: absolute;
+  /* bottom: var(--screen-margin);
+  width: calc(75% - var(--screen-margin)*2); */
+  bottom: 0;
+  width: 75%;
+  padding-left: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--font-size);
+  line-height: var(--font-size);
+}
+
+.statusbar .charge {
+  min-width: calc((10.25px + 5px) * var(--scale));
+}
+
+.charge::before{
+  --size: calc(3.5px * var(--scale));
+  content: '';
+  background-color: white;
+  display: inline-block;
+  min-height: var(--size);
+  min-width:  var(--size);
+  border-radius: 50%;
+  margin-right: calc(1.5px * var(--scale));
+}
+
+.route {
+  letter-spacing: -1px;
+}

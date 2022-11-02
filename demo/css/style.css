@@ -1,0 +1,70 @@
+@import url('fonts.css');
+@import url('pocket.css');
+
+:root {
+  --scale: 3;
+  --1eq: calc(1px * var(--scale));
+  --2eq: calc(2px * var(--scale));
+  --3eq: calc(3px * var(--scale));
+  --4eq: calc(4px * var(--scale));
+  --5eq: calc(5px * var(--scale));
+
+  --screen-margin: var(--2eq);
+  --font-size: var(--5eq);
+
+  --foregrd: white;
+  --backgrd: black;
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --scale: 2;
+  }
+}
+
+body {
+  margin: 30px 10px;
+}
+
+main, footer {
+  font-family: Analogue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+h2 {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a {
+  color: #808080 !important;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+p, div {
+  outline: 0px solid transparent;
+}
+
+.hint {
+  opacity: .5;
+  font-size: 15px;
+  margin-top: 4px;
+}
+.hint::before {
+  content: 'Hint: '
+}
+
+.tac {
+  text-align: center;
+}

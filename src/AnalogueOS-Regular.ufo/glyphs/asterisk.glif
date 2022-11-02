@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk" format="2">
+  <advance width="300"/>
+  <unicode hex="002A"/>
+  <outline>
+    <contour>
+      <point x="250" y="450" type="line"/>
+      <point x="200" y="450" type="line"/>
+      <point x="200" y="400" type="line"/>
+      <point x="250" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="450" type="line"/>
+      <point x="0" y="450" type="line"/>
+      <point x="0" y="400" type="line"/>
+      <point x="50" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="500" type="line"/>
+      <point x="150" y="500" type="line"/>
+      <point x="150" y="450" type="line"/>
+      <point x="200" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="100" y="500" type="line"/>
+      <point x="50" y="500" type="line"/>
+      <point x="50" y="450" type="line"/>
+      <point x="100" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="150" y="600" type="line"/>
+      <point x="150" y="700" type="line"/>
+      <point x="100" y="700" type="line"/>
+      <point x="100" y="600" type="line"/>
+      <point x="0" y="600" type="line"/>
+      <point x="0" y="550" type="line"/>
+      <point x="100" y="550" type="line"/>
+      <point x="100" y="500" type="line"/>
+      <point x="150" y="500" type="line"/>
+      <point x="150" y="550" type="line"/>
+      <point x="250" y="550" type="line"/>
+      <point x="250" y="600" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=l</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=l</string>
+  </dict>
+  </lib>
+</glyph>
