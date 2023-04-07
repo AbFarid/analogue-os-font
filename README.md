@@ -10,6 +10,8 @@ Feel free to use this font in any way you see fit. If you do use it, I would app
 
 I am not affiliated with Analogue Inc. in any way.
 
+### Note, that there's an extended fork of this font available [here](https://github.com/mumchristmas/GamePocket-font).
+
 ## Live demo
 See a recreation of Analogue Pocket's home screen using HTML and CSS [here](https://abfarid.github.io/analogue-os-font/).
 
